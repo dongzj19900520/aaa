@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>空气质量</title>
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<link rel="stylesheet" type="text/css" href="css/AQI.css">
+<script type="text/javascript" src="jquery/jquery-1.11.3.min.js"></script><!--加载脚本包-->
+<script type="text/javascript" src="jquery/highcharts/highcharts.js"></script>
+<script type="text/javascript" src="common/js/common.js"></script>
+<script type="text/javascript" src="js/AQI.js"></script>
+
+</head>
+
+<body class="all_box_bg01">
+    <div class="AQI_box"> 
+        <div class="AQI_top">
+            <div class="AQI_top01">
+                <span>AQI</span>
+                <img id="air_img" src="">
+            </div>
+            <div class="AQI_top02" id="aqi"></div>
+            <div class="AQI_top_r">
+                <a>空气质量指数</a>
+                <span id="update_time">-</span>
+            </div>
+        </div>
+        
+        <div class="warm_notice" id="health_advice"></div>
+        
+        <div class="tab_box2">
+            <div class="tab_title">AQI趋势图</div>
+            <ul class="AQI_icon" id="AQI_ICON">
+                <li><img src="images/air_q01.png"></li>
+                <li><img src="images/air_q01.png"></li>
+                <li><img src="images/air_q01.png"></li>
+                <li><img src="images/air_q01.png"></li>
+                <li><img src="images/air_q01.png"></li>
+                <li><img src="images/air_q01.png"></li>
+            </ul>
+            <div id="container" style="height:280px">
+            </div>
+        </div>
+        
+        <div class="click_update" onclick="downHrefCommon.to()">点击下载知天气查看其它天气信息。</div>
+        
+        <div class="ranking">全国排名：<span class="rank_span01" id="rank"></span><span class="rank_span02" id="rank_total"></span></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+.AQI_box{}
+.AQI_top{
+	overflow:hidden;
+	width:90%;
+	margin:0 auto;}
+.AQI_top01{
+	float:left;
+	text-align:center;}
+.AQI_top01 span{
+	display:block;}
+.AQI_top01 img{
+	display:inline-block;}
+.AQI_top02{
+	float:left;
+	font-weight:bold;}
+.AQI_top_r{
+	float:right;}
+.AQI_top_r a{
+	display:block;
+	text-align:right;}
+.AQI_top_r span{
+	display:block;
+	text-align:right;
+	opacity:0.6;}
+.warm_notice{
+	width:94%;
+	margin:0 auto;
+	opacity:0.6;}
+.tab_box2{
+	background-image:url(../images/white_bg.png);}
+	
+.tab_title{
+	/*border-bottom:solid 1px #ffffff;*/
+	background-image:url(../images/border_line.png);
+	background-position:bottom;
+	background-repeat:repeat-x;}	
+	
+.AQI_icon{
+	overflow:hidden;}
+.AQI_icon li{
+	float:left;
+	width:16.66%;
+	text-align:center;}
+.AQI_icon li img{
+	display:inline-block;}	
+	
+.ranking{
+	text-align:center;
+	}	
+.ranking .rank_span01{}
+.ranking .rank_span02{
+	opacity:0.6;}	
+	
+@media only screen and (max-width: 479px){
+.AQI_top{
+	margin-top:10px;}
+.AQI_top01 span{
+	font-size:20px;
+	line-height:28px;}
+.AQI_top01 img{
+	display:inline-block;
+	height:22px;}
+.AQI_top02{
+	line-height:50px;
+	font-size:46px;
+	margin-left:6px;}
+.AQI_top_r a{
+	line-height:26px;
+	font-size:16px;}
+.AQI_top_r span{
+	line-height:24px;
+	font-size:14px;}
+.warm_notice{
+	margin:10px auto;
+	font-size:14px;
+	line-height:20px;}
+	
+.tab_title{
+	font-size:16px;
+	line-height:30px;
+	padding-left:3%;}
+
+
+.AQI_icon{
+	margin:10px 0;}	
+.AQI_icon li img{
+	height:22px;}
+	
+.ranking{
+	font-size:18px;
+	margin-top:20px;}	
+.ranking .rank_span01{
+	font-size:40px;}	
+.ranking .rank_span02{
+	font-size:22px;}
+	
+	}
+
+@media only screen and (min-width: 480px){
+.AQI_top{
+	margin-top:6px;}
+.AQI_top01 span{
+	font-size:30px;
+	line-height:36px;}
+.AQI_top01 img{
+	display:inline-block;
+	height:34px;}
+.AQI_top02{
+	line-height:70px;
+	font-size:66px;
+	margin-left:10px;}
+.AQI_top_r a{
+	line-height:40px;
+	font-size:22px;}
+.AQI_top_r span{
+	line-height:30px;
+	font-size:20px;}
+.warm_notice{
+	margin:14px auto;
+	font-size:18px;
+	line-height:30px;}
+	
+.tab_title{
+	font-size:22px;
+	line-height:46px;
+	padding-left:3%;}
+
+
+.AQI_icon{
+	margin:14px 0;}	
+.AQI_icon li img{
+	height:32px;}
+	
+.ranking{
+	font-size:24px;
+	margin-top:30px;}	
+.ranking .rank_span01{
+	font-size:60px;}	
+.ranking .rank_span02{
+	font-size:30px;}
+	
+	}

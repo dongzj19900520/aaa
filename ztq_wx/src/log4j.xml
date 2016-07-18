@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<!--#log4j中有5级logger ,#FATAL 0 ,#ERROR 3 ,#WARN 4 ,#INFO 6 ,#DEBUG 7 -->
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+	<!--输出到控制台-->
+	<appender name="DEBUG" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<!-- <param name="ConversionPattern" value="%-4r [%t] %-5p %c %x - %m%n"/>-->
+			<param name="ConversionPattern"
+				value="%d{yyy-MM-dd HH:mm:ss} [%-5p] %c {%F:%L} - %m%n" />
+		</layout>
+	    <filter   class="org.apache.log4j.varia.LevelRangeFilter">   
+            <param   name="LevelMin"   value="DEBUG"   />   
+            <param   name="LevelMax"   value="FATAL"   />           
+            <param   name="AcceptOnMatch"   value="true"   />   
+        </filter>   
+	</appender>
+	<!--输出到文件(更改上线路径)-->
+	<appender name="FILE"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+		<param name="File" value="e:/log/zzywks/zzywks.log" /> 
+		<param name="Append" value="true" />
+		<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern"
+		value="%-5p %d{yy-MM-dd HH:mm:ss} %c(%L) %m%n" />
+		</layout>
+		<filter class="org.apache.log4j.varia.LevelRangeFilter">
+		<param name="LevelMin" value="ERROR" />
+		<param name="LevelMax" value="FATAL" />
+		</filter>
+	</appender>
+	<appender name="MAIL" class="org.apache.log4j.net.SMTPAppender">
+
+		<param name="from" value="log4j@example.org" />
+		<param name="to" value="wuhp@china1168.com" />
+		<param name="subject" value="开发----业务开发平台bug" />
+		<param name="SMTPHost" value="mail.china1168.com" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{yyy-MM-dd HH:mm:ss} [%-5p] %c {%F:%L} - %m%n" />
+		</layout>
+	</appender>
+	
+	<!--设置com.mchange包的输出级别为INFO--> 
+	<category name="com.mchange"> 
+		<priority value="INFO" />   
+		<appender-ref ref="DEBUG" /> 
+	</category> 
+		<category name="com.apache.commons.digester.Digester"> 
+		<priority value="INFO" /> 
+		<appender-ref ref="DEBUG" /> 
+	</category> 
+	<root>
+		<!--<level value="error" />-->
+		<appender-ref ref="FILE" />
+		<appender-ref ref="DEBUG" />
+		<!--<appender-ref ref="MAIL" />-->
+	</root>
+	
+</log4j:configuration>

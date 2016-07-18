@@ -1,0 +1,294 @@
+{
+  "ROWDATA": {
+    "ROW": [
+      {
+        "ID": "25147",
+        "PARENT_ID": "0",
+        "NAME": "北京",
+        "SHOW_NAME": "北京",
+        "PIN_YIN": "BeiJing",
+        "PY": "BJ"
+      },
+      {
+        "ID": "0",
+        "PARENTID": "0",
+        "NAME": "A-Z",
+        "SHOW_NAME": "A-Z",
+        "PINGYIN": "0",
+        "PY": "0"
+      },
+      {
+        "ID": "25168",
+        "PARENT_ID": "0",
+        "NAME": "安徽",
+        "SHOW_NAME": "安徽",
+        "PIN_YIN": "AnHui",
+        "PY": "AH"
+      },
+      {
+        "ID": "25179",
+        "PARENT_ID": "0",
+        "NAME": "澳门",
+        "SHOW_NAME": "澳门",
+        "PIN_YIN": "AoMen",
+        "PY": "AM"
+      },
+      {
+        "ID": "25150",
+        "PARENT_ID": "0",
+        "NAME": "重庆",
+        "SHOW_NAME": "重庆",
+        "PIN_YIN": "ChongQing",
+        "PY": "CQ"
+      },
+      {
+        "ID": "25555",
+        "PARENT_ID": "0",
+        "NAME": "钓鱼岛",
+        "SHOW_NAME": "钓鱼岛",
+        "PIN_YIN": "DiaoYuDao",
+        "PY": "DYD"
+      },
+      {
+        "ID": "25169",
+        "PARENT_ID": "0",
+        "NAME": "福建",
+        "SHOW_NAME": "福建",
+        "PIN_YIN": "FuJian",
+        "PY": "FJ"
+      },
+      {
+        "ID": "25162",
+        "PARENT_ID": "0",
+        "NAME": "甘肃",
+        "SHOW_NAME": "甘肃",
+        "PIN_YIN": "GanSu",
+        "PY": "GS"
+      },
+      {
+        "ID": "25174",
+        "PARENT_ID": "0",
+        "NAME": "广东",
+        "SHOW_NAME": "广东",
+        "PIN_YIN": "GuangDong",
+        "PY": "GD"
+      },
+      {
+        "ID": "25176",
+        "PARENT_ID": "0",
+        "NAME": "广西",
+        "SHOW_NAME": "广西",
+        "PIN_YIN": "GuangXi",
+        "PY": "GX"
+      },
+      {
+        "ID": "25172",
+        "PARENT_ID": "0",
+        "NAME": "贵州",
+        "SHOW_NAME": "贵州",
+        "PIN_YIN": "GuiZhou",
+        "PY": "GZ"
+      },
+      {
+        "ID": "25177",
+        "PARENT_ID": "0",
+        "NAME": "海南",
+        "SHOW_NAME": "海南",
+        "PIN_YIN": "HaiNan",
+        "PY": "HN"
+      },
+      {
+        "ID": "25155",
+        "PARENT_ID": "0",
+        "NAME": "河北",
+        "SHOW_NAME": "河北",
+        "PIN_YIN": "HeBei",
+        "PY": "HB"
+      },
+      {
+        "ID": "25164",
+        "PARENT_ID": "0",
+        "NAME": "河南",
+        "SHOW_NAME": "河南",
+        "PIN_YIN": "HeNan",
+        "PY": "HN"
+      },
+      {
+        "ID": "25151",
+        "PARENT_ID": "0",
+        "NAME": "黑龙江",
+        "SHOW_NAME": "黑龙江",
+        "PIN_YIN": "HeiLongJiang",
+        "PY": "HLJ"
+      },
+      {
+        "ID": "25166",
+        "PARENT_ID": "0",
+        "NAME": "湖北",
+        "SHOW_NAME": "湖北",
+        "PIN_YIN": "HuBei",
+        "PY": "HB"
+      },
+      {
+        "ID": "25171",
+        "PARENT_ID": "0",
+        "NAME": "湖南",
+        "SHOW_NAME": "湖南",
+        "PIN_YIN": "HuNan",
+        "PY": "HN"
+      },
+      {
+        "ID": "25152",
+        "PARENT_ID": "0",
+        "NAME": "吉林",
+        "SHOW_NAME": "吉林",
+        "PIN_YIN": "JiLin",
+        "PY": "JL"
+      },
+      {
+        "ID": "25165",
+        "PARENT_ID": "0",
+        "NAME": "江苏",
+        "SHOW_NAME": "江苏",
+        "PIN_YIN": "JiangSu",
+        "PY": "JS"
+      },
+      {
+        "ID": "25170",
+        "PARENT_ID": "0",
+        "NAME": "江西",
+        "SHOW_NAME": "江西",
+        "PIN_YIN": "JiangXi",
+        "PY": "JX"
+      },
+      {
+        "ID": "25153",
+        "PARENT_ID": "0",
+        "NAME": "辽宁",
+        "SHOW_NAME": "辽宁",
+        "PIN_YIN": "LiaoNing",
+        "PY": "LN"
+      },
+      {
+        "ID": "25154",
+        "PARENT_ID": "0",
+        "NAME": "内蒙古",
+        "SHOW_NAME": "内蒙古",
+        "PIN_YIN": "NeiMengGu",
+        "PY": "NMG"
+      },
+      {
+        "ID": "25163",
+        "PARENT_ID": "0",
+        "NAME": "宁夏",
+        "SHOW_NAME": "宁夏",
+        "PIN_YIN": "NingXia",
+        "PY": "NX"
+      },
+      {
+        "ID": "25161",
+        "PARENT_ID": "0",
+        "NAME": "青海",
+        "SHOW_NAME": "青海",
+        "PIN_YIN": "QingHai",
+        "PY": "QH"
+      },
+      {
+        "ID": "25158",
+        "PARENT_ID": "0",
+        "NAME": "山东",
+        "SHOW_NAME": "山东",
+        "PIN_YIN": "ShanDong",
+        "PY": "SD"
+      },
+      {
+        "ID": "25156",
+        "PARENT_ID": "0",
+        "NAME": "山西",
+        "SHOW_NAME": "山西",
+        "PIN_YIN": "ShanXi",
+        "PY": "SX"
+      },
+      {
+        "ID": "25157",
+        "PARENT_ID": "0",
+        "NAME": "陕西",
+        "SHOW_NAME": "陕西",
+        "PIN_YIN": "ShanXi",
+        "PY": "SX"
+      },
+      {
+        "ID": "25148",
+        "PARENT_ID": "0",
+        "NAME": "上海",
+        "SHOW_NAME": "上海",
+        "PIN_YIN": "ShangHai",
+        "PY": "SH"
+      },
+      {
+        "ID": "25173",
+        "PARENT_ID": "0",
+        "NAME": "四川",
+        "SHOW_NAME": "四川",
+        "PIN_YIN": "SiChuan",
+        "PY": "SC"
+      },
+      {
+        "ID": "25180",
+        "PARENT_ID": "0",
+        "NAME": "台湾",
+        "SHOW_NAME": "台湾",
+        "PIN_YIN": "TaiWan",
+        "PY": "TW"
+      },
+      {
+        "ID": "25149",
+        "PARENT_ID": "0",
+        "NAME": "天津",
+        "SHOW_NAME": "天津",
+        "PIN_YIN": "TianJin",
+        "PY": "TJ"
+      },
+      {
+        "ID": "25160",
+        "PARENT_ID": "0",
+        "NAME": "西藏",
+        "SHOW_NAME": "西藏",
+        "PIN_YIN": "XiZang",
+        "PY": "XZ"
+      },
+      {
+        "ID": "25178",
+        "PARENT_ID": "0",
+        "NAME": "香港",
+        "SHOW_NAME": "香港",
+        "PIN_YIN": "XiangGang",
+        "PY": "XG"
+      },
+      {
+        "ID": "25159",
+        "PARENT_ID": "0",
+        "NAME": "新疆",
+        "SHOW_NAME": "新疆",
+        "PIN_YIN": "XinJiang",
+        "PY": "XJ"
+      },
+      {
+        "ID": "25175",
+        "PARENT_ID": "0",
+        "NAME": "云南",
+        "SHOW_NAME": "云南",
+        "PIN_YIN": "YunNan",
+        "PY": "YN"
+      },
+      {
+        "ID": "25167",
+        "PARENT_ID": "0",
+        "NAME": "浙江",
+        "SHOW_NAME": "浙江",
+        "PIN_YIN": "ZheJiang",
+        "PY": "ZJ"
+      }
+    ]
+  }
+}

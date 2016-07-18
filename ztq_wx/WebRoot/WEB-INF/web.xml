@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+ <servlet>
+	<!--点播的servert --> 
+   <servlet-name>accessServlet</servlet-name>
+    <servlet-class>com.china1168.utils.access.action.AccessServlet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>accessServlet</servlet-name>
+    <url-pattern>/accessServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 微信平台交互的servert -->
+  <servlet> 
+   <servlet-name>aotoServlet</servlet-name>
+    <servlet-class>com.demon.weixin.weixinintf.WeiXinOAuth20Servlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>aotoServlet</servlet-name>
+    <url-pattern>/aotoServlet</url-pattern>
+  </servlet-mapping>
+
+ <!-- 微信平台反馈的servert -->
+  <servlet> 
+   <servlet-name>fkServlet</servlet-name>
+    <servlet-class>com.china1168.utils.access.action.FkServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>fkServlet</servlet-name>
+    <url-pattern>/fkServlet</url-pattern>
+  </servlet-mapping>
+ <!-- 城市列表的servert -->
+  <servlet> 
+   <servlet-name>cityServlet</servlet-name>
+    <servlet-class>com.demon.weixin.weixinintf.citySelectServlet</servlet-class>
+  </servlet>
+   <servlet-mapping>
+    <servlet-name>cityServlet</servlet-name>
+    <url-pattern>/cityServlet</url-pattern>
+  </servlet-mapping>
+  
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

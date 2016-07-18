@@ -1,0 +1,398 @@
+/**选择城市**/
+.cityInfo{width:100%;overflow:hidden;background:#4387a9;}
+.cityMain,.citySearch{overflow:hidden;}
+.cityMain{padding:0px 6%;width:88%;}
+.citySearch input
+{
+	border:0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	text-align:center;
+}
+.citySearch input.text{
+	width:79%;
+	background:#d9e7ee;
+	color:#8f8f8f;
+}
+.citySearch input.btn
+{
+	width:18%;
+	background:#429ecc;
+	color:#fff;
+	text-align:center;
+	border:1px solid #000;
+	
+}
+.difCity ul li,.difProvinces ul li
+{
+	border-bottom:1px solid #7cabc3;
+	width:100%;
+	text-indent:12px;
+}
+.difProvinces ul li
+{
+	background:url(../images/next.png) no-repeat;
+	background-position:98% 50%;
+}
+/**生活指数**/
+.iconInfo{width:100%;overflow:hidden;}
+.today-life-index{background:#4387a9;overflow:hidden;}
+.today-life-index .bmeta li .icon
+{
+	float:left;
+	margin-right:15px;
+}
+.icon_right{float:left; border-left: 1px solid #86BBD5;padding-left:10px;}
+.today-life-index .bmeta{overflow:hidden;border-bottom:3px solid #4d94b7;}
+.today-life-index .bmeta ul{margin-top:-1px}
+.today-life-index .bmeta li{border-top:3px solid #4d94b7;clear:both;overflow:hidden;}
+
+
+.today-life-index .bmeta li .advice{background:url(../images/ico/shzs/advice.png) no-repeat center;}
+/**舒适度指数**/
+.today-life-index .bmeta li .blood{background:url(../images/ico/shzs/blood.png) no-repeat center;}
+/**火险指数**/
+.today-life-index .bmeta li .bttg{background:url(../images/ico/shzs/bttg.png) no-repeat center;}
+/**体感指数**/
+.today-life-index .bmeta li .city{background:url(../images/ico/shzs/city.png) no-repeat center;}
+/**游泳指数**/
+.today-life-index .bmeta li .clothes{background:url(../images/ico/shzs/clothes.png) no-repeat center;}
+/**污染指数**/
+.today-life-index .bmeta li .default{background:url(../images/ico/shzs/default.png) no-repeat center;}
+/**夜间体感指数**/
+.today-life-index .bmeta li .effect{background:url(../images/ico/shzs/effect.png) no-repeat center;}
+/**晒衣指数**/
+.today-life-index .bmeta li .fszs{background:url(../images/ico/shzs/fszs.png) no-repeat center;}
+/**白天体感指数**/
+.today-life-index .bmeta li .humidity{background:url(../images/ico/shzs/humidity.png) no-repeat center;}
+/**晨练指数**/
+.today-life-index .bmeta li .jtzs{background:url(../images/ico/shzs/jtzs.png) no-repeat center;}
+/**穿衣指数**/
+.today-life-index .bmeta li .jyzs{background:url(../images/ico/shzs/jyzs.png) no-repeat center;}
+/**钓鱼指数**/
+.today-life-index .bmeta li .life_car{background:url(../images/ico/shzs/life_car.png) no-repeat center;}
+/**防晒指数**/
+.today-life-index .bmeta li .life_catchcold{background:url(../images/ico/shzs/life_catchcold.png) no-repeat center;}
+/**感冒指数**/
+.today-life-index .bmeta li .life_clothes{background:url(../images/ico/shzs/life_clothes.png) no-repeat center;}
+/**交通指数**/
+.today-life-index .bmeta li .life_fire{background:url(../images/ico/shzs/life_fire.png) no-repeat center;}
+/**郊游指数**/
+.today-life-index .bmeta li .life_fishing{background:url(../images/ico/shzs/life_fishing.png) no-repeat center;}
+/**霉变指数**/
+.today-life-index .bmeta li .life_run{background:url(../images/ico/shzs/life_run.png) no-repeat center;}
+/**跑步指数**/
+.today-life-index .bmeta li .lszs{background:url(../images/ico/shzs/lszs.png) no-repeat center;}
+/**人体舒适指数**/
+.today-life-index .bmeta li .mbzs{background:url(../images/ico/shzs/mbzs.png) no-repeat center;}
+/**日光性皮炎**/
+.today-life-index .bmeta li .next{background:url(../images/ico/shzs/next.png) no-repeat center;}
+/**上下班指数**/
+.today-life-index .bmeta li .night{background:url(../images/ico/shzs/night.png) no-repeat center;}
+/**洗车指数**/
+.today-life-index .bmeta li .rgxpy{background:url(../images/ico/shzs/rgxpy.png) no-repeat center;}
+/**消化性胃溃疡胃炎**/
+.today-life-index .bmeta li .rtssdzs{background:url(../images/ico/shzs/rtssdzs.png) no-repeat center;}
+/**心脑血指数**/
+.today-life-index .bmeta li .run{background:url(../images/ico/shzs/run.png) no-repeat center;}
+/**夜间指数**/
+.today-life-index .bmeta li .ssdzs{background:url(../images/ico/shzs/ssdzs.png) no-repeat center;}
+/**中暑指数**/
+.today-life-index .bmeta li .sxbzs{background:url(../images/ico/shzs/sxbzs.png) no-repeat center;}
+/**紫外线指数**/
+.today-life-index .bmeta li .icon-dressed{background:url(../images/ico/shzs/dressed.png) no-repeat center;}
+.today-life-index .bmeta li .temperature{background:url(../images/ico/shzs/temperature.png) no-repeat center;}
+.today-life-index .bmeta li .tgzs{background:url(../images/ico/shzs/tgzs.png) no-repeat center;}
+.today-life-index .bmeta li .wind{background:url(../images/ico/shzs/wind.png) no-repeat center;}
+.today-life-index .bmeta li .wrzs{background:url(../images/ico/shzs/wrzs.png) no-repeat center;}
+.today-life-index .bmeta li .xnxg{background:url(../images/ico/shzs/xnxg.png) no-repeat center;}
+.today-life-index .bmeta li .yjtg{background:url(../images/ico/shzs/yjtg.png) no-repeat center;}.today-life-index .bmeta li .sxbzs{background:url(../images/ico/shzs/sxbzs.png) no-repeat center;}
+.today-life-index .bmeta li .yyzs{background:url(../images/ico/shzs/yyzs.png) no-repeat center;}
+.today-life-index .bmeta li .zszs{background:url(../images/ico/shzs/zszs.png) no-repeat center;}
+.today-life-index .bmeta li .zwxzs{background:url(../images/ico/shzs/zwxzs.png) no-repeat center;}
+.today-life-index .bmeta li .name{color:#fff}
+.today-life-index .bmeta li .name .red{color:#fff}
+.today-life-index .bmeta li .name .green{color:#fff}
+.today-life-index .bmeta li .des{color:#ffcc00}
+.today-life-index .bmeta li .des a{color:#ffcc00;text-decoration:underline}
+.today-life-index .bmeta li .des a:visited,.today-life-index .bmeta li .des a:hover{color:#ffcc00}
+/**预警**/
+.warnList
+{
+	width:92%;
+	overflow:hidden;
+	padding:0 4%;
+	border-top:3px solid #397c9d;
+}
+.warnTop
+{
+	border-bottom:1px solid #7baac2;
+	overflow:hidden;
+}
+.warnPic
+{
+	overflow:hidden;
+	float:left;
+	padding-right:15px;background:url(../images/blizzard-orange.png) no-repeat;
+}
+
+.hl_O{background:url(../images/hl_O.png) no-repeat;}
+.hl_R{background:url(../images/hl_R.png) no-repeat;}
+.hl_Y{background:url(../images/hl_Y.png) no-repeat;}
+.hl_B{background:url(../images/hl_B.png) no-repeat;}
+
+
+.m_O{background:url(../images/m_O.png) no-repeat;}
+.m_R{background:url(../images/m_R.png) no-repeat;}
+.m_Y{background:url(../images/m_Y.png) no-repeat;}
+.m_B{background:url(../images/m_B.png) no-repeat;}
+
+.jw_O{background:url(../images/jw_O.png) no-repeat;}
+.jw_R{background:url(../images/jw_R.png) no-repeat;}
+.jw_B{background:url(../images/jw_B.png) no-repeat;}
+.jw_Y{background:url(../images/jw_Y.png) no-repeat;}
+
+
+.gw_O{background:url(../images/gw_O.png) no-repeat;}
+.gw_R{background:url(../images/gw_R.png) no-repeat;}
+.gw_B{background:url(../images/gw_B.png) no-repeat;}
+.gw_Y{background:url(../images/gw_Y.png) no-repeat;}
+
+.ld_O{background:url(../images/ld_O.png) no-repeat;}
+.ld_B{background:url(../images/ld_B.png) no-repeat;}
+.ld_Y{background:url(../images/ld_Y.png) no-repeat;}
+.ld_R{background:url(../images/ld_Y.png) no-repeat;}
+/**暴雪_橙**/
+.bx_O{background:url(../images/bx_O.png) no-repeat;}
+/**暴雪_红**/
+.bx_R{background:url(../images/bx_R.png) no-repeat;}
+/**暴雪_黄**/
+.bx_Y{background:url(../images/bx_Y.png) no-repeat;}
+/**暴雪_蓝**/
+.bx_B{background:url(../images/bx_B.png) no-repeat;}
+/**暴雨**/
+.by_O{background:url(../images/by_O.png) no-repeat;}
+.by_B{background:url(../images/by_B.png) no-repeat;}
+.by_R{background:url(../images/by_R.png) no-repeat;}
+.by_Y{background:url(../images/by_Y.png) no-repeat;}
+/**寒潮_蓝**/
+.hc_B{background:url(../images/hc_B.png) no-repeat;}
+/**寒潮_橙**/
+.hc_O{background:url(../images/hc_O.png) no-repeat;}
+/**寒潮_红**/
+.hc_R{background:url(../images/hc_R.png) no-repeat;}
+/**寒潮_黄**/
+.hc_Y{background:url(../images/hc_Y.png) no-repeat;}
+/**低温冷寒**/
+.dwlh_B{background:url(../images/dwlh_B.png) no-repeat;}
+.dwlh_O{background:url(../images/dwlh_O.png) no-repeat;}
+.dwlh_Y{background:url(../images/dwlh_Y.png) no-repeat;}
+.dwlh_R{background:url(../images/dwlh_R.png) no-repeat;}
+/**干旱_蓝**/
+.gh_B{background:url(../images/gh_B.png) no-repeat;}
+/**干旱_红**/
+.gh_R{background:url(../images/gh_R.png) no-repeat;}
+.gh_O{background:url(../images/gh_O.png) no-repeat;}
+.gh_Y{background:url(../images/gh_Y.png) no-repeat;}
+/**沙尘暴_蓝**/
+.sc_B{background:url(../images/sc_B.png) no-repeat;}
+/**沙尘暴_红**/
+.sc_R{background:url(../images/sc_R.png) no-repeat;}
+/**沙尘暴_黄**/
+.sc_Y{background:url(../images/sc_Y.png) no-repeat;}
+/**沙尘暴_橙**/
+.sc_O{background:url(../images/sc_O.png) no-repeat;}
+/**大雾_蓝**/
+.dw_B{background:url(../images/dw_B.png) no-repeat;}
+.dw_R{background:url(../images/dw_R.png) no-repeat;}
+.dw_O{background:url(../images/dw_O.png) no-repeat;}
+.dw_Y{background:url(../images/dw_Y.png) no-repeat;}
+/**霜冻_红**/
+.sd_B{background:url(../images/sd_B.png) no-repeat;}
+.sd_O{background:url(../images/sd_O.png) no-repeat;}
+.sd_Y{background:url(../images/sd_Y.png) no-repeat;}
+.sd_R{background:url(../images/sd_R.png) no-repeat;}
+/**高温_蓝**/
+.h_temperature-blue{background:url(../images/h_temperature-blue.png) no-repeat;}
+/**高温_黄**/
+.h_temperature-yellow{background:url(../images/h_temperature-yellow.png) no-repeat;}
+/**冰雹_蓝**/
+.bb_B.png{background:url(../images/bb_B.png) no-repeat;}
+/**冰雹_黄**/
+.bb_Y{background:url(../images/bb_Y.png) no-repeat;}
+.bb_O{background:url(../images/bb_O.png) no-repeat;}
+.bb_R{background:url(../images/bb_R.png) no-repeat;}
+/**道路冰雪_蓝**/
+.dlbx_B{background:url(../images/dlbx_B.png) no-repeat;}
+.dlbx_O{background:url(../images/dlbx_O.png) no-repeat;}
+.dlbx_Y{background:url(../images/dlbx_Y.png) no-repeat;}
+.dlbx_R{background:url(../images/dlbx_R.png) no-repeat;}
+/***严寒**/
+.yh_B{background:url(../images/yh_B.png) no-repeat;}
+.yh_O{background:url(../images/yh_O.png) no-repeat;}
+.yh_Y{background:url(../images/yh_Y.png) no-repeat;}
+.yh_R{background:url(../images/yh_R.png) no-repeat;}
+
+.xz_O{background:url(../images/xz_O.png) no-repeat;}
+.xz_B{background:url(../images/xz_B.png) no-repeat;}
+.xz_R{background:url(../images/xz_R.png) no-repeat;}
+.xz_Y{background:url(../images/xz_Y.png) no-repeat;}
+/**道路结冰**/
+.dljb_B{background:url(../images/dljb_B.png) no-repeat;}
+.dljb_O{background:url(../images/dljb_B.png) no-repeat;}
+.dljb_R{background:url(../images/dljb_B.png) no-repeat;}
+.dljb_Y{background:url(../images/dljb_B.png) no-repeat;}
+/**雪灾_蓝**/
+.x_B{background:url(../images/x_B.png) no-repeat;}
+/**雪灾_红**/
+.x_R{background:url(../images/x_R.png) no-repeat;}
+/**雪灾_橙**/
+.x_O{background:url(../images/x_O.png) no-repeat;}
+/**雪灾_黄**/
+.x_Y{background:url(../images/x_Y.png) no-repeat;}
+/**雷电_蓝**/
+.thunder_blue{background:url(../images/thunder_blue.png) no-repeat;}
+/**大风_蓝**/
+.df_B{background:url(../images/df_B.png) no-repeat;}
+.df_R{background:url(../images/df_R.png) no-repeat;}
+.df_O{background:url(../images/df_O.png) no-repeat;}
+.df_Y{background:url(../images/df_Y.png) no-repeat;}
+/**台风_蓝**/
+.tf_B{background:url(../images/tf_B.png) no-repeat;}
+.tf_R{background:url(../images/tf_R.png) no-repeat;}
+.tf_Y{background:url(../images/tf_Y.png) no-repeat;}
+.warnXq{overflow:hidden;line-height:24px;}
+.warnText p{overflow:hidden;text-overflow:ellipsis;white-space:nowrap; color:#c2c3c1;}
+/**空气质量**/
+.airTop,.air_trend,.aqiInfo{padding:0 3.1%;width:93.8%overflow:hidden;}
+.airTop{border-bottom:3px solid #397c9d;}
+.airAqi{width:100%;overflow:hidden;}
+.airAqi_left{width:31%;text-align:center; float:left;}
+.airAqi_right{float:left;width:69%;overflow:hidden;}
+.airAqi_right ul li.two{border-top:1px solid #71a4be;}
+.air_trendpic{overflow:hidden;width:100%;padding:8px 0;}
+.air_trendpic img{width:100%;}
+.effect,.advice{clear:both;overflow:hidden;}
+.aqiInfo span{padding-right:5px; display:inline-block;float:left;width:24px;height:24px;background-size:24px 24px;}
+.effect,.advice{padding-bottom:8px;padding-top:5px;}
+.effect{border-bottom:1px solid #82afc6; }
+.effect span{background:url(../images/effect.png) no-repeat left; }
+.advice span{background:url(../images/advice.png) no-repeat left;}
+.effectText{float:left;line-height:24px;}
+/**意见反馈**/
+.feedback{width:86.4%;padding:0 6.8%;overflow:hidden;}
+.feedback_text{width:100%;overflow:hidden;color:#a1a5a8;}
+.feedback_text textarea{padding:0 2%;width:96%;resize:none;background:#d5e7f1;border:0;color:#a1a5a8;margin-top:5px;border-radius:5px;-moz-border-radius:5px;}
+.submit{padding-bottom:10px;overflow:hidden;margin:0 auto;}
+.submit input{float:left; background:#e1e1e1;color:#484848;border:2px solid #aaaaaa;margin-left:20px;border-radius:4px;-moz-border-radius:4px;border:0;}
+.submit input.ss{float:right;margin:0;margin-right:20px;}
+@media only screen{
+	body{font-size:14px;}
+	.citySearch{padding:12px 0;}
+	.citySearch input{height:35px; line-height:35px;font-size:16px;}
+	.difCity ul li,.difProvinces ul li{padding:14px 0;font-size:14px; }
+	.difProvinces ul li{background-size:9px 15px;}
+	.today-life-index .bmeta{padding:0 3px;}
+	.today-life-index .bmeta li{padding:7px 10px 10px 10px}
+	.today-life-index .bmeta li .icon{
+		
+		width:48px;
+		height:60px;
+		background-size:48px 48px;
+	}
+	.today-life-index .bmeta li .name{font-size:16px;height:16px;line-height:16px;margin:6px 0 10px}
+	.today-life-index .bmeta li .des{font-size:12px;line-height:14px}
+	.warnPic{background-size:70px 59px; width:70px;height:59px;padding-right:8px;}
+	.warnXq,.warnTop{padding:15px 0;}
+	.warnXq{line-height:24px;}
+	.warnText{line-height:30px;}
+	.warnText h3{font-size:16px;}
+	.airTop{padding-top:8px;padding-bottom:8px;}
+	.air_trend{padding-top:8px;padding-bottom:8px;}
+	.airTitle{padding-bottom:15px;}
+	.airAqi_left{font-size:42px;}
+	.airAqi_right ul li{line-height:21px;}
+	.effectText{width:90%;}
+	.feedback_text{padding:30px 0;}
+	.feedback_text textarea{line-height:28px;font-size:14px;height:200px;}
+	.submit input{width:400px;height:35px;line-height:35px;font-size:14px;vertical-align:middle;}
+	#container{height:250px};
+}
+@media only screen and (min-width: 480px){
+	body{font-size:21px;}
+	.citySearch{padding:20px 0;}
+	.citySearch input{height:55px; line-height:55px;font-size:22px;}
+	.difCity ul li,.difProvinces ul li{padding:20px 0;font-size:21px;}
+	.difProvinces ul li{background-size:13px 21px;}
+	.today-life-index{margin-bottom:12px}
+	.today-life-index .bmeta{padding:0 5px}
+	.today-life-index .bmeta li{padding:11px 16px 15px 16px}
+	.today-life-index .bmeta li .icon{
+		width:72px;
+		height:80px;
+		background-size:72px 72px;
+	}	
+	.today-life-index .bmeta li .name{font-size:24px;height:24px;line-height:24px;margin:6px 0 8px}
+	.today-life-index .bmeta li .des{font-size:18px;line-height:21px}
+	.warnPic{background-size:100px 85px; width:100px;height:85px;padding-right:15px;}
+	.warnXq,.warnTop{padding:22px 0;}
+	.warnXq{line-height:26px;}
+	.warnText{line-height:40px;}
+	.warnText h3{font-size:24px;}
+	.airTop{padding-top:10px;padding-bottom:10px;}
+	.air_trend{padding-top:10px;padding-bottom:10px;}
+	.airTitle{padding-bottom:20px;}
+	.airAqi_left{font-size:52px;}
+	.airAqi_right ul li{line-height:26px;}
+	.effectText{width:93%;}
+	.feedback_text{padding:40px 0;}
+	.feedback_text textarea{line-height:35px;font-size:21px;height:250px;}
+	.submit input{width:130px;height:55px;line-height:55px;font-size:21px;}
+	#container{height:300px};
+	
+}
+@media only screen and (max-width: 319px){
+	body{font-size:10px;}
+	.citySearch{padding:8px 0;}
+	.citySearch input{height:30px; line-height:30px;font-size:12px;}
+	.difCity ul li,.difProvinces ul li{padding:12px 0;font-size:10px;}
+	.difProvinces ul li{background-size:7px 11px;}
+	.today-life-index{margin-bottom:6px}
+	.today-life-index .bmeta{padding:0 2px}
+	.today-life-index .bmeta li{padding:5px 8px 7px 8px}
+	.today-life-index .bmeta li .icon{
+		width:36px;
+		height:49px;
+		background-size:36px 36px;
+	}	
+	.today-life-index .bmeta li .name{font-size:12px;height:12px;line-height:12px;margin:3px 0 6px}
+	.today-life-index .bmeta li .des{font-size:9px;line-height:10px}
+	.warnPic{background-size:50px 42px; width:50px;height:42px;padding-right:5px;}
+	.warnXq,.warnTop{padding:10px 0;}
+	.warnXq{line-height:18px;}
+	.warnText{line-height:20px;}
+	.warnText h3{font-size:12px;}
+	.airTop{padding-top:5px;padding-bottom:5px;}
+	.air_trend{padding-top:5px;padding-bottom:5px;}
+	.airTitle{padding-bottom:10px;}
+	.airAqi_left{font-size:32px;}
+	.airAqi_right ul li{line-height:16px;}
+	.effectText{width:85%;}
+	.feedback_text{padding:20px 0;}
+	.feedback_text textarea{line-height:20px;font-size:12px;height:150px;}
+	.submit input{width:60px;height:22px;line-height:22px;font-size:12px;}
+	#container{height:200px};
+}
+
+.air_trend table,.air_trend tr
+{
+	width:100%;
+}
+.air_trend tr td
+{
+	width:12%;
+	border:1px solid #82AFC6;
+	text-align:center;
+	padding:5px 0;
+}

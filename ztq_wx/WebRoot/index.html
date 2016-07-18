@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>天气预报</title>
+<link rel="stylesheet" type="text/css" href="css/public.css">
+<script type="text/javascript" src="jquery/jquery-1.11.3.min.js"></script><!--加载脚本包-->
+<script type="text/javascript" src="jquery/highcharts/highcharts.js"></script>
+<script type="text/javascript" src="common/js/common.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="js/fp.js"></script>
+<script>
+  </script>
+  
+</head>
+
+<body class=" all_box_bg01">
+    <div class="all_box">
+        <div class="top_box">
+            <div class="top_l">
+                <a class="city_now" href="city.html" id="city_name">-</a>
+                <a class="warn_in" href="#" id="warn"></a>
+            </div>
+            <div class="top_r">
+                <div class="choose_bg_icon"></div>
+            </div>
+            <div class="top_c">
+                <em id="loading"><img src="images/update_icon.gif"></em>
+                <span id="update_time">-</span>
+            </div>
+        </div>
+        
+        <div class="weath_num_box">
+            <div class="weath_num01" id="Temperature"><span id="Temperature2">℃</span></div>
+        </div>
+        
+        <ul class="weath_tm">
+            <li>
+                <span id="humidity">-</span>
+                <img src="images/w_img01.png">
+            </li>
+            <li>
+                <span id="visibility">-</span>
+                <img src="images/w_img02.png">
+            </li>
+            <li>
+                <span id="rainfall">-</span>
+                <img src="images/w_img03.png">
+            </li>
+            <li>
+                <span id="wind">-</span>
+                <img src="images/w_img04.png">
+            </li>
+        </ul>
+        
+        <div class="two_icon_box">
+            <a href="#" id="air" class="icon_box icon_box_l">
+                <span>空气质量指数</span>
+                <img id="air_img" src="">
+            </a>
+            <div class="icon_box icon_box_r" id="cyzs_div">
+                <span id="cyzs">穿衣指数-级</span>
+                <img src="images/DressingInd01.png">
+            </div>
+            <div class="poup_box" id="poup_o">
+            </div>
+        </div>
+        
+        <div class="border_line"></div>
+        
+        <div class="weath_detail_box">
+            <div class="detail_title" id="detail_date">--</div> 
+            <div class="weath_detail" id="detail_weather">--</div>   
+        </div>
+        
+        <div class="border_line"></div>
+        
+        <div class="weath_list_box">
+            <ul class="weath_list" id="weather_list">
+            </ul>
+            <div class="tab_box">
+                <div id="container"></div>
+            </div>
+        </div>
+        
+        <div class="border_line"></div>
+        
+        <div class="click_update" onclick="downHrefCommon.to()">点击下载知天气查看其它天气信息。</div>
+    </div>
+    
+    <div class="per_style">
+        <em></em>
+        <ul>
+            <li class="all_box_bg01 li_bg"></li>
+            <li class="all_box_bg02"></li>
+            <li class="all_box_bg03"></li>
+            <li class="all_box_bg04"></li>
+            <li class="all_box_bg05"></li>
+            <li class="all_box_bg06"></li>
+            <li class="all_box_bg07"></li>
+        </ul>
+    </div>
+</body>
+</html>
